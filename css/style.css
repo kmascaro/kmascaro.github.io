@@ -88,7 +88,7 @@ a {
     .page_content_new_pro .content .create {
       font-family: ostrich, sans-serif;
       font-size: .8em;
-      margin-bottom: 5em; }
+      margin-bottom: 4em; }
     .page_content_new_pro .content .inputs input, .page_content_new_pro .content .inputs input[type="password"], .page_content_new_pro .content .inputs input[type="search"], .page_content_new_pro .content .inputs isindex {
       font-family: ostrich, sans-serif;
       -webkit-appearance: textfield;
@@ -96,7 +96,7 @@ a {
       background-color: #cecece;
       border: none;
       padding: 10px;
-      width: 95%;
+      width: 100%;
       margin: 0.5em 0;
       border-image-source: initial;
       border-image-slice: initial;
@@ -106,7 +106,27 @@ a {
       -webkit-rtl-ordering: logical;
       -webkit-user-select: text;
       cursor: auto;
-      font-size: 24px; }
+      font-size: 1.5em;
+      box-sizing: border-box; }
+    .page_content_new_pro .content .button input[type="button"], .page_content_new_pro .content .button input[type="submit"], .page_content_new_pro .content .button input[type="reset"], .page_content_new_pro .content .button input[type="file"]::-webkit-file-upload-button, .page_content_new_pro .content .button button {
+      font-family: ostrich, sans-serif;
+      align-items: flex-start;
+      letter-spacing: 2px;
+      text-align: center;
+      cursor: default;
+      color: buttontext;
+      padding: 6px 6px;
+      border: 2px outset buttonface;
+      border-image-source: initial;
+      border-image-slice: initial;
+      border-image-width: initial;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      background-color: buttonface;
+      box-sizing: border-box;
+      font-size: 1.5em;
+      float: right;
+      margin-top: 1em; }
 
 @-webkit-keyframes load {
   0% {
