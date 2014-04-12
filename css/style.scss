@@ -117,44 +117,27 @@ a {
     .create {
       @include font;
       font-size: .8em;
+      margin-bottom: 5em;
     }
-    .profile {
-      @include font-black;
-      background: $grey;
-      text-align: center;
-      padding: 1px;
-      width: 80%;
-      margin: 5em auto;
-      border-radius: 2px;
-    }
-    .or {
-      @include font;
-      font-size: 1.25em;
-      text-align: center;
-    }
-    .login_bar {
-      width: 80%;
-      height: 20px;
-      margin: 5em auto;
-      .twitter {
-        width: 50%;
-        background:blue;
-        float: left;
-        width: 50px;
-        margin: 0 auto;
-      }
-      .facebook {
-        width: 50%;
-        background:green;
-        float: left;
-        width: 50px; 
-        margin: 0 11%;
-      }
-      .other {
-        width: 50%;
-        background:red;
-        float: left;
-        width: 50px;
+    .inputs {
+      input, input[type="password"], input[type="search"], isindex {
+        @include font;
+        -webkit-appearance: textfield;
+        letter-spacing: 2px;
+        background-color: #cecece;
+        border: none;
+        padding: 10px;
+        width: 95%;
+        margin: 0.5em 0;
+        border-image-source: initial;
+        border-image-slice: initial;
+        border-image-width: initial;
+        border-image-outset: initial;
+        border-image-repeat: initial;
+        -webkit-rtl-ordering: logical;
+        -webkit-user-select: text;
+        cursor: auto;
+        font-size: 24px;
       }
     }
   }

@@ -87,40 +87,26 @@ a {
     margin: 0 auto; }
     .page_content_new_pro .content .create {
       font-family: ostrich, sans-serif;
-      font-size: .8em; }
-    .page_content_new_pro .content .profile {
-      font-family: ostrich-black, sans-serif;
-      background: #cecece;
-      text-align: center;
-      padding: 1px;
-      width: 80%;
-      margin: 5em auto;
-      border-radius: 2px; }
-    .page_content_new_pro .content .or {
+      font-size: .8em;
+      margin-bottom: 5em; }
+    .page_content_new_pro .content .inputs input, .page_content_new_pro .content .inputs input[type="password"], .page_content_new_pro .content .inputs input[type="search"], .page_content_new_pro .content .inputs isindex {
       font-family: ostrich, sans-serif;
-      font-size: 1.25em;
-      text-align: center; }
-    .page_content_new_pro .content .login_bar {
-      width: 80%;
-      height: 20px;
-      margin: 5em auto; }
-      .page_content_new_pro .content .login_bar .twitter {
-        width: 50%;
-        background: blue;
-        float: left;
-        width: 50px;
-        margin: 0 auto; }
-      .page_content_new_pro .content .login_bar .facebook {
-        width: 50%;
-        background: green;
-        float: left;
-        width: 50px;
-        margin: 0 11%; }
-      .page_content_new_pro .content .login_bar .other {
-        width: 50%;
-        background: red;
-        float: left;
-        width: 50px; }
+      -webkit-appearance: textfield;
+      letter-spacing: 2px;
+      background-color: #cecece;
+      border: none;
+      padding: 10px;
+      width: 95%;
+      margin: 0.5em 0;
+      border-image-source: initial;
+      border-image-slice: initial;
+      border-image-width: initial;
+      border-image-outset: initial;
+      border-image-repeat: initial;
+      -webkit-rtl-ordering: logical;
+      -webkit-user-select: text;
+      cursor: auto;
+      font-size: 24px; }
 
 @-webkit-keyframes load {
   0% {
