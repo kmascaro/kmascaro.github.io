@@ -79,6 +79,31 @@ a {
         float: left;
         width: 50px; }
 
+.page_content_new_pro {
+  width: 100%;
+  height: 100vh; }
+  .page_content_new_pro .content {
+    width: 80%;
+    margin: 0 auto; }
+    .page_content_new_pro .content .logo {
+      width: 30%;
+      margin-top: 8em; }
+      @media only screen and (max-width: 30em) {
+        .page_content_new_pro .content .logo {
+          width: 100%; } }
+    .page_content_new_pro .content .phrase {
+      font-family: ostrich, sans-serif;
+      text-align: center; }
+    .page_content_new_pro .content .bar {
+      border: 1px black solid;
+      width: 100%;
+      height: 20px; }
+      .page_content_new_pro .content .bar .loadbar {
+        width: 100%;
+        height: 100%;
+        background: black;
+        -webkit-animation: load 3s ease-in; }
+
 @-webkit-keyframes load {
   0% {
     width: 0%; }
