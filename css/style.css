@@ -85,24 +85,42 @@ a {
   .page_content_new_pro .content {
     width: 80%;
     margin: 0 auto; }
-    .page_content_new_pro .content .logo {
-      width: 30%;
-      margin-top: 8em; }
-      @media only screen and (max-width: 30em) {
-        .page_content_new_pro .content .logo {
-          width: 100%; } }
-    .page_content_new_pro .content .phrase {
+    .page_content_new_pro .content .create {
       font-family: ostrich, sans-serif;
+      font-size: .8em; }
+    .page_content_new_pro .content .profile {
+      font-family: ostrich-black, sans-serif;
+      background: #cecece;
+      text-align: center;
+      padding: 1px;
+      width: 80%;
+      margin: 5em auto;
+      border-radius: 2px; }
+    .page_content_new_pro .content .or {
+      font-family: ostrich, sans-serif;
+      font-size: 1.25em;
       text-align: center; }
-    .page_content_new_pro .content .bar {
-      border: 1px black solid;
-      width: 100%;
-      height: 20px; }
-      .page_content_new_pro .content .bar .loadbar {
-        width: 100%;
-        height: 100%;
-        background: black;
-        -webkit-animation: load 3s ease-in; }
+    .page_content_new_pro .content .login_bar {
+      width: 80%;
+      height: 20px;
+      margin: 5em auto; }
+      .page_content_new_pro .content .login_bar .twitter {
+        width: 50%;
+        background: blue;
+        float: left;
+        width: 50px;
+        margin: 0 auto; }
+      .page_content_new_pro .content .login_bar .facebook {
+        width: 50%;
+        background: green;
+        float: left;
+        width: 50px;
+        margin: 0 11%; }
+      .page_content_new_pro .content .login_bar .other {
+        width: 50%;
+        background: red;
+        float: left;
+        width: 50px; }
 
 @-webkit-keyframes load {
   0% {
