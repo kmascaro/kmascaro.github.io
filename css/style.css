@@ -58,17 +58,22 @@ img, video {
       height: 20px;
       margin: 5em auto; }
       .page_content_login .content .login_bar .twitter {
-        width: 33.333%;
+        width: 50%;
         background: blue;
-        float: left; }
+        float: left;
+        width: 50px;
+        margin: 0 auto; }
       .page_content_login .content .login_bar .facebook {
-        width: 33.333%;
+        width: 50%;
         background: green;
-        float: left; }
-      .page_content_login .content .login_bar .googleplus {
-        width: 33.333%;
+        float: left;
+        width: 50px;
+        margin: 0 19%; }
+      .page_content_login .content .login_bar .other {
+        width: 50%;
         background: red;
-        float: left; }
+        float: left;
+        width: 50px; }
 
 @-webkit-keyframes load {
   0% {

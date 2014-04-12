@@ -16,7 +16,6 @@ $grey: #CECECE;
 
 
 
-
 //######## CODE #########
 
 img,video {
@@ -82,19 +81,24 @@ img,video {
       height: 20px;
       margin: 5em auto;
       .twitter {
-        width: 33.333%;
+        width: 50%;
         background:blue;
         float: left;
+        width: 50px;
+        margin: 0 auto;
       }
       .facebook {
-        width: 33.333%;
+        width: 50%;
         background:green;
-        float: left; 
+        float: left;
+        width: 50px; 
+        margin: 0 19%;
       }
-      .googleplus {
-        width: 33.333%;
+      .other {
+        width: 50%;
         background:red;
         float: left;
+        width: 50px;
       }
     }
   }
